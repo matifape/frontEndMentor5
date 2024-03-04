@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-color-fondo{
+    background-color: hsl(233, 47%, 7%);
+}
+
+.bg-carta{
+    background-color: hsl(244, 38%, 16%);
+}
+
+.color-foto{
+    color: hsl(277, 64%, 61%);
+}
+
+.texto-p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.estats{
+    color:hsla(0, 0%, 100%, 0.6);
+}
