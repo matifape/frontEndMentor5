@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -13,63 +12,62 @@
     />
     <link href="./output.css" rel="stylesheet" />
     <title>Frontend Mentor | Stats preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-  <body class="bg-color-fondo lg:min-h-screen flex flex-col justify-center items-center">
-    <div
-      class="flex flex-col lg:flex-row-reverse justify-center items-center w-fit lg:w-10/12 mx-auto mt-6 bg-carta relative rounded-lg overflow-hidden"
-    >
-      <div class="relative lg:w-1/2 overflow-hidden ">
-        
+  <body class="bg-color-fondo flex flex-col min-h-screen justify-center items-center">
+    <!-- CONTENEDOR GLOBAL-->
+    <div class="max-w-4xl mx-auto sm:p-2 sm:flex sm:flex-col lg:flex-row-reverse lg:mb-16">
+      <!--CONTENEDOR FOTO -->
+      <div class="relative sm:w-full lg:w-1/2 sm:rounded-tl-md sm:rounded-tr-md   lg:rounded-r-2xl overflow-hidden">
+        <div class="absolute inset-0 bg-purple-900 opacity-50"></div>
         <img
+          class="sm:rounded-tl-md sm:rounded-tr-md  w-full h-full object-cover lg:rounded-r-2xl"
           src="/images/image-header-desktop.jpg"
           alt=""
-          class="w-full sm:rounded-t-lg lg:w-fit lg:h-full lg:rounded-tr-1xl lg:rounded-br-2xl"
         />
-        <div class="absolute inset-0 bg-violet-900 opacity-50"></div>
       </div>
+      <!--FIN CONTENEDOR FOTO-->
 
-      <div class="p-4 flex flex-col justify-center items-center lg:w-1/2">
-        <h1 class="text-white font-lexend-deca text-2xl mb-4 lg:text-4xl text-center ">
-          Get <span class="color-foto">insights</span>that help your business
+      <!--CONTENEDOR TEXTO-->
+      <div class="flex flex-col justify-center items-center text-center bg-carta sm:p-8 sm:rounded-b-2xl lg:rounded-l-2xl lg:w-1/2">
+        <h1 class="text-white text-3xl sm:mt-3 font-lexend-deca font-bold sm:mb-6">
+          Get <span class="color-foto">insights</span> that help your business
           grow.
         </h1>
-        <article class="text-white lg:text-lg mt-5">
+        <article class="texto-p sm:max-w-64 leading-relaxed">
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </article>
-        <div class="flex flex-col justify-center items-center mt-6">
-          <div class="flex flex-col items-center mb-4">
-            <h3 class="font-lexend-deca text-white text-2xl">10k+</h3>
-            <span class="uppercase font-inter estats text-xs">companies</span>
-          </div>
-          <div class="flex flex-col items-center mb-4">
-            <h3 class="font-lexend-deca text-white text-2xl">314</h3>
-            <span class="uppercase font-inter estats text-xs">templates</span>
-          </div>
-          <div class="flex flex-col items-center mb-4">
-            <h3 class="font-lexend-deca text-white text-2xl">12M+</h3>
-            <span class="uppercase font-inter estats text-xs">queries</span>
-          </div>
+        <div class="sm:flex sm:flex-col justify-center items-center text-center sm:mt-6 lg:flex-row w-full lg:justify-around lg:mt-7">
+        <div class="mb-4">
+          <h2 class="text-white font-bold text-xl sm:mb-2">10k+</h2>
+          <article class="estats font-inter uppercase text-xs">
+            companies
+          </article>
+        </div>
+        <div class="mb-4">
+          <h2 class="text-white font-bold text-xl sm:mb-2">314</h2>
+          <article class="estats font-inter uppercase text-xs">templates</article>
+        </div>
+        <div class="mb-4">
+          <h2 class="text-white font-bold text-xl sm:mb-2"> 12M+</h2>
+          <article class="estats font-inter uppercase text-xs">queries</article>
         </div>
       </div>
+      </div>
+      <!--FIN CONTENEDOR TEXTO-->
+      
     </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    <div class="flex justify-center text-center">
+      <p class="text-white">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://www.frontendmentor.io/profile/matifape" target="_blank">Matias Almasia</a>.</p>
+      
     </div>
+   
+
+    
   </body>
+
+ 
 </html>

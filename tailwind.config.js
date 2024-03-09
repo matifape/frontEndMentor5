@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         'lexend-deca': ['Lexend Deca', 'sans-serif'],
         'inter': ['Inter', 'sans-serif']
+      },
+      screens: {
+        'sm': '375px'
       }
     },
   },
